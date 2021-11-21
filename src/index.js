@@ -1,12 +1,13 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 import GlobalStyle from './global/GlobalStyle';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 ReactDOM.render(
-  <React.Fragment>
+  <BrowserRouter>
     <GlobalStyle />
     <App />
-  </React.Fragment>,
+  </BrowserRouter>,
   document.getElementById('root')
 );

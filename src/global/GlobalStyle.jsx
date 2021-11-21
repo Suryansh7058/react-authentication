@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     
@@ -6,12 +6,18 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     }
 
-    html {
-        font-family: 'Noto Sans JP', sans-serif;
+    body {
+        font-family: 'Open Sans', 'Lato', sans-serif;
+        margin: 0;
     }
 
-    body {
-        margin: 0;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+         font-family: 'Lato', sans-serif;
     }
 
 `;
