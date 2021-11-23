@@ -40,17 +40,17 @@ export const Actions = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
+export const Button = styled.button`
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #9f5ccc;
+  border: 1px solid #9f5ccc;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
 
-  & button {
-    cursor: pointer;
-    font: inherit;
-    color: white;
-    background-color: #9f5ccc;
-    border: 1px solid #9f5ccc;
-    border-radius: 4px;
-    padding: 0.5rem 2.5rem;
-  }
-  & button:hover {
+  &:hover {
     background-color: #873abb;
     border-color: #873abb;
   }
